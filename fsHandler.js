@@ -1,13 +1,9 @@
 const fileObjSample = { fileName: 'tmp', extension: 'txt' },
-fs = require('fs'),
-callsite = require('callsite'),
-path = require('path')
+fs = require('fs')
 
 function createFile (fileObj = fileObjSample) {
   try {
-    const stack = callsite()
-    const _path = path.dirname(stack[1].getFileName())
-    return fs.createWriteStream(`${_path}/${fileObj.fileName}.${fileObj.extension}`, { flags: 'a' })
+    return fs.createWriteStream(`${fileObj.fileName}.${fileObj.extension}`, { flags: 'a' })
   } catch (err) {
     console.error('Error during file creation')
     throw Error(err)
