@@ -16,6 +16,11 @@ if(input[0] === 'help' || input.length < 2) {
 
 const [type, name] = cli.input;
 
+if(!templates[`${type}`]) {
+  console.log(`${logsym.error} ${type} not found`)
+  process.exit(0)
+}
 const file = createFile({fileName: name, extension: 'js'})
 writeFile(file, templates[`${type}`].fillTemplate(name))
+
 console.log(`${logsym.success} ${type}: ${name}, created successfully!`)
