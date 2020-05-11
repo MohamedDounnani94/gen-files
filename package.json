@@ -1,0 +1,21 @@
+{
+  "name": "gen-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mohamed Dounnani",
+  "description": "Simple cli that generate schema graphql",
+  "license": "MIT",
+  "bin": {
+    "weroad-cli": "index.js"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "chalk": "^4.0.0",
+    "cli-check-node": "^1.3.0",
+    "cli-handle-unhandled": "^1.1.0",
+    "cli-welcome": "^1.4.0",
+    "lodash": "^4.17.15",
+    "log-symbols": "^4.0.0",
+    "meow": "^7.0.0"
+  }
+}
