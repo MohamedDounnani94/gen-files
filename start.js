@@ -6,7 +6,7 @@ const unhandledError = require('cli-handle-unhandled');
 module.exports = async () => {
   unhandledError();
   checkNode(`10`);
-  welcome(`weroad-cli`, `by Mohamed Dounnani\n${pkgJSON.description}`, {
+  welcome(`gen-cli`, `by Mohamed Dounnani\n${pkgJSON.description}`, {
     bgColor: `#81EF96`,
     color: `#FFFFFF`,
     bold: true,

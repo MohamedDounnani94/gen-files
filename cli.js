@@ -7,13 +7,13 @@ const cyan = chalk.cyan;
 module.exports = meow(
   `
 	Usage
-	  ${green(`weroad-cli`)} ${cyan(`<schema>`)} ${yellow(`<name>`)}
+	  ${green(`gen-cli`)} ${cyan(`<schema>`)} ${yellow(`<name>`)}
 	Commands
 	  ${cyan(`schema`)}    Generate schema
 	  ${cyan(`name`)}      Name of schema to generate
 	Examples
-	${green(`weroad-cli`)} ${cyan(`schema`)} ${yellow(`badge`)}
-	${green(`weroad-cli`)} ${cyan(`help`)}
+	${green(`gen-cli`)} ${cyan(`schema`)} ${yellow(`badge`)}
+	${green(`gen-cli`)} ${cyan(`help`)}
 `,
   {
     booleanDefault: undefined,
