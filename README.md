@@ -1,9 +1,9 @@
-# gen-cli
-Cli that generate files for backend based on templates
+# gen-files
+Cli that generate files based on templates
 
 # Install
 ```shell script
-foo-bar: $ npx gen-cli
+foo-bar: $ npx gen-files
 ```
 
 # Supported templates
@@ -11,8 +11,8 @@ foo-bar: $ npx gen-cli
 
 # Usage
 ```shell script
-foo-bar: $ npx gen-cli help
-foo-bar: $ npx gen-cli schema badge
+foo-bar: $ npx gen-files help
+foo-bar: $ npx gen-files schema badge
 ```
 
 # License
