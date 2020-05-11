@@ -6,6 +6,9 @@ Cli that generate files for backend based on templates
 foo-bar: $ npx gen-cli
 ```
 
+# Supported templates
+- Schema GraphQL
+
 # Usage
 ```shell script
 foo-bar: $ npx gen-cli help
