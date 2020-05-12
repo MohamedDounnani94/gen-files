@@ -8,6 +8,8 @@ foo-bar: $ npx gen-files
 
 # Supported templates
 - Schema GraphQL
+- Vuex Store
+- Vue Component
 
 # Usage
 ```shell script

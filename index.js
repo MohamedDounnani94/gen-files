@@ -25,7 +25,9 @@ if(!templates[`${type}`]) {
   console.log(`${logsym.error} ${type} not found`)
   process.exit(0)
 }
-const file = createFile({fileName: name, extension: 'js'})
-writeFile(file, templates[`${type}`].fillTemplate(name))
+
+const file = createFile({fileName: name, extension: templates[`${type}`].ex})
+writeFile(file, templates[`${type}`].name.fillTemplate(name))
+
 
 console.log(`${logsym.success} ${type}: ${name}, created successfully!`)

@@ -1,5 +1,5 @@
-const schema = require('./schema')
+const graphql_schema = require('./graphl-schema')
 
 module.exports = {
-  schema
+  graphql_schema
 }
