@@ -1,5 +1,6 @@
-const schema = require('./schema')
-
+const backend = require('./backend')
+const frontend = require('./frontend')
 module.exports = {
-  schema: schema
+  schema: backend.schema,
+  vuex_store: frontend.vuex_store
 }
