@@ -1,5 +1,5 @@
 # gen-files
-Cli that generate files based on templates
+CLI that generate files based on templates
 
 # Install
 ```shell script
@@ -10,7 +10,7 @@ foo-bar: $ npx gen-files
 - Schema GraphQL
 - Vuex Store
 - Vue Component
-
+- chai
 # Usage
 ```shell script
 foo-bar: $ npx gen-files help

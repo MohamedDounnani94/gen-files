@@ -12,6 +12,7 @@ table.push(
   ['gen-files', 'schema', 'badge', 'Creates GraphQL file graphl-schema with the name badge'],
   ['gen-files', 'vuex-store', 'badge', 'Creates Vuex file store with the name badge'],
   ['gen-files', 'vue-component', 'badge', 'Creates Vue component file with the name badge'],
+  ['gen-files', 'chai', 'badge', 'Creates Chai file with the name badge'],
 )
 
 module.exports = meow(
