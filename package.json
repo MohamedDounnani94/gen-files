@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Mohamed Dounnani",
   "repository": "MohamedDounnani94/gen-files",
-  "description": "Simple cli that generate schema graphql",
+  "description": "CLI that generate files based on templates",
   "license": "MIT",
   "scripts": {
     "test": "echo \"No test specified\""
