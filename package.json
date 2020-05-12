@@ -12,6 +12,15 @@
   "bin": {
     "gen-files": "index.js"
   },
+  "keywords": [
+    "gen-files",
+    "generate files",
+    "vuex",
+    "vue",
+    "graphql",
+    "graphql schema",
+    "chai"
+  ],
   "dependencies": {
     "callsite": "^1.0.0",
     "chalk": "^4.0.0",
